@@ -3,7 +3,7 @@ import WelcomeScreen from './screens/WelcomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import CreateAccountScreen from './screens/CreateAccountScreen';
 import AccountSettingsScreen from './screens/AccountSettingsScreen';
-import ProfilePicture from '../components/ProfilePicture';
+import ProfilePicture from './components/ProfilePicture';
 
 const App = () => {
   const [currentScreen, setCurrentScreen] = useState('welcome');

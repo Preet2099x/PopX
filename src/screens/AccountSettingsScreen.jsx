@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePicture from '../../components/ProfilePicture';
+import ProfilePicture from '../components/ProfilePicture';
 
 const AccountSettingsScreen = ({ userData }) => {
   // Handle case where no data is available
